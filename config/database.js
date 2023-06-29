@@ -9,7 +9,11 @@ const koneksi = mysql.createConnection({
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0,
-  multipleStatements: true,
+  // host: "localhost",
+  // user: "root",
+  // password: "pw_db",
+  // database: "db_tb",
+  // multipleStatements: true,
 });
 
 // koneksi database
